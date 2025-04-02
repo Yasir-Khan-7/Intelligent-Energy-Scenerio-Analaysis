@@ -278,7 +278,7 @@ with col1:
                 )
     # Add the "Contact Us" button
     if st.button("Contact us", type="secondary"):
-       os.system("streamlit run iesa_contact_us.py")
+       os.system("https://iesa-contact-us.streamlit.app")
 # Right column: Display image and text
 with col2:
     st.image("images/energy_centered_image.png", width=500)
