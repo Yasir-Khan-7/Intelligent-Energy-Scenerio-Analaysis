@@ -10,15 +10,5 @@ scikit-learn
 streamlit-folium
 folium
 urllib3
-locale
 asyncio
 pydantic-ai
-base64
-datetime
-os
-io
-random
-scikit-learn
-pydantic-ai.models.groq
-reportlab
-
