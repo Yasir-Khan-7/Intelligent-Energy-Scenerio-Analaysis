@@ -276,9 +276,11 @@ with col1:
                     "<div class='custom-error'>⚠️ Invalid username or password. Please try again.</div>",
                     unsafe_allow_html=True,
                 )
-    # Add the "Contact Us" button
-    if st.button("Contact us", type="secondary"):
-       os.system("https://iesa-contact-us.streamlit.app")
+    # # Add the "Contact Us" button
+    # if st.button("Contact us", type="secondary"):
+    #    os.system("streamlit run iesa_contact_us.py")
+
+    st.link_button("Contact us", "https://iesa-contact-us.streamlit.app", type="secondary")  
 # Right column: Display image and text
 with col2:
     st.image("images/energy_centered_image.png", width=500)
