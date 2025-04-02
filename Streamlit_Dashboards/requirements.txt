@@ -22,5 +22,3 @@ scikit-learn
 pydantic-ai.models.groq
 reportlab
 
-just run this 
-pip install streamlit reportlab pandas mysql-connector-python groq altair smolagents numpy scikit-learn streamlit-folium folium urllib3 locale asyncio pydantic-ai base64 datetime os io random pydantic-ai.models.groq reportlab
